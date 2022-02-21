@@ -10,6 +10,7 @@
         <module name="sp02-itemservice" />
         <module name="sp03-userservice" />
         <module name="sp04-order" />
+        <module name="sp09-config" />
         <module name="sp06-zuul" />
         <module name="sp07-hystrix-dashboard" />
         <module name="sp08-turbine" />
@@ -31,6 +32,7 @@
       <module name="sp06-zuul" options="-parameters" />
       <module name="sp07-hystrix-dashboard" options="-parameters" />
       <module name="sp08-turbine" options="-parameters" />
+      <module name="sp09-config" options="-parameters" />
     </option>
   </component>
 </project>
