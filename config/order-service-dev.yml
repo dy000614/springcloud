@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: order-service
+# 8001,  8101  ,8201
+server:
+  port: 8201
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://eureka1:2001/eureka,http://eureka2:2002/eureka
+
+
+ribbon:
+  MaxAutoRetries: 0
+  MaxAutoRetriesNextServer: 1

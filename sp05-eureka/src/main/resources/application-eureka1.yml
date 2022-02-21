@@ -1,0 +1,13 @@
+# application-eureka1.yml
+# 被激活的profile配置和主配置合并加载
+# 相同的配置属性，profile配置会覆盖主配置
+server:
+  port: 2001
+eureka:
+  instance:
+    hostname: eureka1
+  client:
+    register-with-eureka: true
+    fetch-registry: true
+    service-url:
+      defaultZone: http://eureka2:2002/eureka
